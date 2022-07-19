@@ -18,7 +18,8 @@ export default {
   methods: {
     activeBurguer() {
       this.burguer = !this.burguer
-    }
+      this.$emit('show-nav')
+    },
   }
 }
 </script>

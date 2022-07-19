@@ -2,10 +2,10 @@
   <header class="bg-darkBlue">
     <div class="flex pt-4">
       <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo">
-      <burguer-button></burguer-button>
+      <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
     <div>
-      <nav-bar></nav-bar>
+      <nav-bar :class="{invisible: showContent}"></nav-bar>
     </div>
   </header>
 </template>
@@ -15,12 +15,25 @@ import BurguerButton from '@/components/UI/BurguerButton.vue'
 import NavBar from '@/components/navBar/NavBar.vue'
 
 export default {
+  data() {
+    return {
+      showContent: true
+    }
+  },
   components: { 
     NavBar,
     BurguerButton, 
   },
+  methods: {
+    showLinks() {
+      this.showContent = !this.showContent
+    }
+  }
 }
 </script>
 
 <style lang="scss" scoped>
+.invisible {
+  @apply hidden;
+}
 </style>
