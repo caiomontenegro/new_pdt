@@ -2,15 +2,15 @@
   <nav class="nav">
       <div class="nav-links">
         <div class="nav-links__main">
-          <ul>
+          <ul class="flex flex-col items-center">
             <li><a class='link' href="">Aprenda</a></li>
             <li><a class='link' href="">Ao vivo</a></li>
             <li><a class='link' href="">Blog</a></li>
           </ul>
         </div>
         <div class="nav-links__special">
-          <ul>
-            <li><a class="signup-link" href="">Cadastre-se</a></li>
+          <ul class="flex flex-col items-center">
+            <li><a class="special__link" href="">Cadastre-se</a></li>
           </ul>
         </div>
       </div>
@@ -25,8 +25,20 @@ export default {
 
 <style lang="scss">
 
+.nav-links {
+  @apply text-sm uppercase text-gray-400 font-montserrat;
+
+&__special {
+  @apply font-semibold
+}
+
 .link {
-  @apply uppercase;
+  @apply hover:text-gray-200 duration-200;
+}
+
+.special__link {
+  @apply hover:text-gray-200 duration-200;
+}
 }
 
 </style>

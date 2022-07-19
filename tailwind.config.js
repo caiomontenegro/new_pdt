@@ -22,7 +22,12 @@ module.exports = {
       veryDarkBlue: '#02021D',
       red: '#D62516',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+       lato: 'Lato',
+       montserrat: 'Montserrat' 
+      }
+    },
   },
   plugins: [],
 }
