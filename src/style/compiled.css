@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:wght@400;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.teste {
-  @apply bg-black;
-}
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=compiled.css.map */

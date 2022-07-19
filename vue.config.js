@@ -5,12 +5,3 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
-module.exports = {
-  css: {
-    loaderOptions: {
-      scss: {
-        additionalData: '@import "~@/scss/_variables.scss";'
-      }
-    }
-  }
-}
