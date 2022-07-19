@@ -3,14 +3,14 @@
       <div class="nav-links">
         <div class="nav-links__main">
           <ul class="flex flex-col items-center">
-            <li><a class='link' href="">Aprenda</a></li>
-            <li><a class='link' href="">Ao vivo</a></li>
-            <li><a class='link' href="">Blog</a></li>
+            <li class='link'><a href="">Aprenda</a></li>
+            <li class='link'><a href="">Ao vivo</a></li>
+            <li class='link'><a href="">Blog</a></li>
           </ul>
         </div>
         <div class="nav-links__special">
           <ul class="flex flex-col items-center">
-            <li><a class="special__link" href="">Cadastre-se</a></li>
+            <li class="special__link"><a href="">Cadastre-se</a></li>
           </ul>
         </div>
       </div>
@@ -33,11 +33,11 @@ export default {
 }
 
 .link {
-  @apply hover:text-gray-200 duration-200;
+  @apply hover:text-gray-200 duration-200 mt-2.5;
 }
 
 .special__link {
-  @apply hover:text-gray-200 duration-200;
+  @apply hover:text-gray-200 duration-200 mt-2.5;
 }
 }
 
