@@ -1,11 +1,11 @@
 <template>
-  <header class="bg-darkBlue">
-    <div class="flex pt-4">
+  <header class="py-3">
+    <div class="flex pt-2">
       <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo">
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
     <div>
-      <nav-bar :class="{invisible: showContent}"></nav-bar>
+      <nav-bar :class="{hidden: showContent}"></nav-bar>
     </div>
   </header>
 </template>
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.invisible {
-  @apply hidden;
+header {
+  @apply bg-slate-800;
 }
 </style>

@@ -10,8 +10,9 @@ module.exports = {
       // Main Colors
       cyan: colors.cyan,
       blue: colors.blue,
+      slate: colors.slate,
       // Other Colors
-      rose: colors.rose,
+      red: colors.red,
       gray: colors.gray,
     },
     extend: {
