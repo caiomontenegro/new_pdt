@@ -7,25 +7,17 @@ module.exports = {
   ],
   theme: {
     colors: {
-      // Font Colors
-      gray: colors.gray,
       // Main Colors
-      light: '#E9ECEF',
-      cyan: '#54CC94',
-      lightBlue: '#1672db',
-      blue: '#1454a8',
-      darkBlue: '#182944',
-      orange: '#ff0000',
+      cyan: colors.cyan,
+      blue: colors.blue,
       // Other Colors
-      lightGrey: '#E8E8E8',
-      darkGrey: '#A8A8A8',
-      veryDarkBlue: '#02021D',
-      red: '#D62516',
+      rose: colors.rose,
+      gray: colors.gray,
     },
     extend: {
       fontFamily: {
        lato: 'Lato',
-       montserrat: 'Montserrat' 
+       montserrat: 'Montserrat'
       }
     },
   },
