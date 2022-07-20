@@ -1,5 +1,5 @@
 <template>
-  <header class="py-3">
+  <header class="py-3 bg-slate-800">
     <div class="flex pt-2">
       <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo">
       <burguer-button @show-nav="showLinks()"></burguer-button>
@@ -33,7 +33,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-header {
-  @apply bg-slate-800;
-}
 </style>

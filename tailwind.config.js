@@ -14,6 +14,8 @@ module.exports = {
       // Other Colors
       red: colors.red,
       gray: colors.gray,
+      // Dev Colors
+      emerald: colors.emerald
     },
     extend: {
       fontFamily: {
