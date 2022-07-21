@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-slate-800">
+  <section class="flex flex-col items-center bg-slate-800 space-y-4 py-3">
     <div class="flex flex-col items-center space-y-4 py-4">
       <h1 class="text-center text-4xl font-montserrat text-gray-100 w-96">
         Onde <span class="font-bold text-emerald-500">traders consistentes</span> se encontram
@@ -14,5 +14,7 @@
 
 <script>
 export default {
+  components: {
+  }
 }
 </script>
