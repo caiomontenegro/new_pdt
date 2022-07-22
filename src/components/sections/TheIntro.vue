@@ -8,7 +8,7 @@
         Estudamos mais de 300 mil traders para criar um <strong>sistema educacional completo</strong>, que te ensina a melhorar seus resultados e a operar na Bolsa com mais segurança.
       </p>
     </div>
-    <rounded-button></rounded-button>
+    <rounded-button>Começar meus Cursos Gratuitos</rounded-button>
   </section>
 </template>
 

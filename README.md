@@ -23,8 +23,11 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+Comandos:
 
 Tecnologias usadas
+
+Vue, Tailwind, SCSS, Prettier
 
 Conceitos
 
@@ -32,7 +35,7 @@ Mobile first
 BEM CSS
 
 Esturutura HTML
-
+BEM
 
 Estrutura de Estilo
 
@@ -51,3 +54,6 @@ Estrutura de componentes
   Set path components:
 
   Always start with '@' to indicate root.
+
+Git
+
