@@ -1,36 +1,35 @@
 <template>
-  <header class="py-3 bg-slate-800">
+  <header class="bg-slate-800 py-3">
     <div class="flex pt-2">
-      <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo">
+      <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo" />
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
     <div>
-      <nav-bar :class="{hidden: showContent}"></nav-bar>
+      <nav-bar :class="{ hidden: showContent }"></nav-bar>
     </div>
   </header>
 </template>
 
 <script>
-import BurguerButton from '@/components/UI/BurguerButton.vue'
-import NavBar from '@/components/navBar/NavBar.vue'
+import BurguerButton from "@/components/UI/BurguerButton.vue";
+import NavBar from "@/components/navBar/NavBar.vue";
 
 export default {
   data() {
     return {
-      showContent: true
-    }
+      showContent: true,
+    };
   },
-  components: { 
+  components: {
     NavBar,
-    BurguerButton, 
+    BurguerButton,
   },
   methods: {
     showLinks() {
-      this.showContent = !this.showContent
-    }
-  }
-}
+      this.showContent = !this.showContent;
+    },
+  },
+};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

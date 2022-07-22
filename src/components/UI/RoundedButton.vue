@@ -1,9 +1,11 @@
 <template>
   <div class="flex w-full justify-center">
     <!-- Set the background color by the props -->
-    <button class="text-lg font-montserrat font-bold text-gray-100 rounded-full p-4 w-10/12 uppercase" :class="color">
-      <slot>
-      </slot>
+    <button
+      class="w-10/12 rounded-full p-4 font-montserrat text-lg font-bold uppercase text-gray-100"
+      :class="color"
+    >
+      <slot> </slot>
     </button>
   </div>
 </template>
@@ -14,8 +16,8 @@ export default {
     color: {
       type: String,
       required: false,
-      default: 'bg-blue-500'
-    }
-  }
-}
+      default: "bg-blue-500",
+    },
+  },
+};
 </script>

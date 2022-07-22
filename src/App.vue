@@ -1,21 +1,18 @@
 <template>
-    <the-header></the-header>
-    <the-main></the-main>
+  <the-header></the-header>
+  <the-main></the-main>
 </template>
 
-
 <script>
-import TheHeader from '@/components/layouts/TheHeader.vue'
-import TheMain from '@/components/layouts/TheMain.vue'
+import TheHeader from "@/components/layouts/TheHeader.vue";
+import TheMain from "@/components/layouts/TheMain.vue";
 
 export default {
   components: {
     TheHeader,
-    TheMain
-  }
-}
+    TheMain,
+  },
+};
 </script>
 
-<style lang="scss" scoped>
-  
-</style>
+<style lang="scss" scoped></style>
