@@ -102,6 +102,11 @@
       Começar Plano Educacional
     </rounded-button>
   </section-container>
+  <section-container class="bg-slate-800">
+    <h2 class="text-center font-lato text-3xl uppercase text-gray-100 font-thin">
+      Por que <span class="font-bold text-emerald-500">milhares de traders</span> frequentam o Portal diariamente?
+    </h2>
+  </section-container>
 </template>
 
 <script>
