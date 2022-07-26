@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import SectionContainer from "@/components/sections/SectionContainer.vue";
+import SectionContainer from "@/components/layouts/SectionContainer.vue";
 
 export default {
   components: {
