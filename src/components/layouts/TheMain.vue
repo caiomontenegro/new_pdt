@@ -32,17 +32,38 @@
         Valores.
       </template>
     </description-container>
+    <testimony-card>
+      <template v-slot:testimony>
+        "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A
+        calma e paciência da equipe foram fundamentais para eu atingir minha
+        consistência. Já conhecia o mercado e tinha perdido muito! Com vocês
+        isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes
+        amigos... Obrigado por tudo!"
+      </template>
+      <template v-slot:studantImage
+        ><img
+          class="w-24 rounded-full"
+          src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02"
+          alt="Foto do Aluno"
+      /></template>
+      <template v-slot:studantName>Lucas A.</template>
+    </testimony-card>
+    <rounded-button color="bg-slate-700" hoverColor="hover:bg-slate-900">aprenda as melhores técnicas</rounded-button>
   </section-container>
 </template>
 
 <script>
 import SectionContainer from "@/components/layouts/SectionContainer.vue";
 import DescriptionContainer from "@/components/UI/DescriptionContainer.vue";
+import TestimonyCard from "@/components/UI/TestimonyCard.vue";
+import RoundedButton from "@/components/UI/RoundedButton.vue"
 
 export default {
   components: {
     SectionContainer,
     DescriptionContainer,
+    TestimonyCard,
+    RoundedButton
   },
 };
 </script>
