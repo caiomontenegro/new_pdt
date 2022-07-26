@@ -16,22 +16,29 @@
   </section-container>
   <section-container>
     <div>
-      <img src="@/assets/home/Sasaki.png" alt="Sasaki" />
+      <img
+        src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/sala-ao-vivo-sasaki"
+        alt="Sasaki"
+      />
     </div>
-    <description-container>
-      <template v-slot:title>APRENDA AS <ins>MELHORES</ins> TÉCNICAS</template>
-      <template v-slot:description
-        >Seja para operar Day Trade, Swing Trade ou investir a longo prazo,
-        nosso time de traders ensina as principais técnicas utilizadas no
-        mercado como Price Action, Análise Técnica e Tape Reading em cursos
-        gratuitos completos.
-      </template>
-      <template v-slot:boldDescription
-        >Se você está começando agora, ou já é um trader experiente, será mais
-        que bem-vindo para aprender o que quiser sobre trading e Bolsa de
-        Valores.
-      </template>
-    </description-container>
+    <div class="flex flex-col items-center space-y-8">
+      <h2 class="font-montserrat text-2xl uppercase">
+        Aprenda as <ins>melhores</ins> técnicas
+      </h2>
+      <div class="space-y-4">
+        <p class="font-lato text-lg">
+          Seja para operar Day Trade, Swing Trade ou investir a longo prazo,
+          nosso time de traders ensina as principais técnicas utilizadas no
+          mercado como Price Action, Análise Técnica e Tape Reading em cursos
+          gratuitos completos.
+        </p>
+        <p class="font-lato text-lg font-bold">
+          Se você está começando agora, ou já é um trader experiente, será mais
+          que bem-vindo para aprender o que quiser sobre trading e Bolsa de
+          Valores.
+        </p>
+      </div>
+    </div>
     <testimony-card>
       <template v-slot:testimony>
         "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A
@@ -48,22 +55,65 @@
       /></template>
       <template v-slot:studantName>Lucas A.</template>
     </testimony-card>
-    <rounded-button color="bg-slate-700" hoverColor="hover:bg-slate-900">aprenda as melhores técnicas</rounded-button>
+    <rounded-button color="bg-slate-700" hoverColor="hover:bg-slate-900"
+      >aprenda as melhores técnicas</rounded-button
+    >
+  </section-container>
+  <section-container class="bg-gray-200">
+    <img
+      src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/aprenda-screens"
+      alt="Acessibilidade Portal do Trader"
+    />
+    <div class="flex flex-col items-center space-y-8">
+      <h2 class="font-montserrat text-2xl uppercase">
+        Sem plano, <ins>sem chance.</ins>
+      </h2>
+      <div class="space-y-4">
+        <p class="font-lato text-lg">
+          Não existe uma fórmula mágica para começar a operar com segurança nem
+          para conseguir resultados positivos consistentes, o único caminho é
+          através do conhecimento.
+        </p>
+        <p class="font-lato text-lg font-bold">
+          Nossos traders profissionais estruturaram toda a jornada de
+          aprendizado em um plano, com todas as etapas que você precisa passar
+          para conquistar seus objetivos no mercado.
+        </p>
+      </div>
+    </div>
+    <testimony-card>
+      <template v-slot:testimony>
+        "Muito obrigado por ceder estes materiais tão valiosos de forma
+        gratuita. Sempre que preciso renovar as energias e/ou tirar dúvidas
+        recorro ao CHAT PORTAL DO TRADER e SEMPRE, SEM EXCEÇÃO sou muito bem
+        tratado, minhas dúvidas são esclarecidas e tudo corre muito bem. Muito
+        obrigado mesmo PORTAL!"
+      </template>
+      <template v-slot:studantImage>
+        <img
+          class="w-24 rounded-full"
+          src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto,f_auto/pdt-home/testimonial-pic-01"
+          alt="Foto do Aluno."
+        />
+      </template>
+      <template v-slot:studantName>Eduardo G.</template>
+    </testimony-card>
+    <rounded-button color="bg-red-500" hoverColor="hover:bg-red-600">
+      Começar Plano Educacional
+    </rounded-button>
   </section-container>
 </template>
 
 <script>
 import SectionContainer from "@/components/layouts/SectionContainer.vue";
-import DescriptionContainer from "@/components/UI/DescriptionContainer.vue";
 import TestimonyCard from "@/components/UI/TestimonyCard.vue";
-import RoundedButton from "@/components/UI/RoundedButton.vue"
+import RoundedButton from "@/components/UI/RoundedButton.vue";
 
 export default {
   components: {
     SectionContainer,
-    DescriptionContainer,
     TestimonyCard,
-    RoundedButton
+    RoundedButton,
   },
 };
 </script>
