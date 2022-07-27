@@ -19,8 +19,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-       lato: 'Lato',
-       montserrat: 'Montserrat'
+        lato: 'Lato',
+        montserrat: 'Montserrat'
+      },
+      backgroundImage: {
+        'dark-background': "url(https://res.cloudinary.com/portal-do-trader/image/upload/dpr_auto,q_auto:eco,f_auto/pdt-home/bg_social.jpg)"
       }
     },
   },

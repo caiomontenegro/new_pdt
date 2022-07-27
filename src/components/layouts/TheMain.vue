@@ -191,12 +191,12 @@
   </section-container>
   <section-container class="bg-gray-200">
     <div class="flex flex-col space-y-4">
-      <h2 class="font-lato text-3xl font-bold uppercase text-center">
+      <h2 class="text-center font-lato text-3xl font-bold uppercase">
         Acesse agora o
-        <span class="text-emerald-500">melhor conteúdo gratuito</span> para operar
-        na Bolsa de Valores
+        <span class="text-emerald-500">melhor conteúdo gratuito</span> para
+        operar na Bolsa de Valores
       </h2>
-      <p class="font-lato uppercase text-center">
+      <p class="text-center font-lato uppercase">
         Veja você mesmo por que o
         <span class="text-emerald-500">Portal do Trader</span> é o melhor site
         para <span class="text-emerald-500">aprender a operar</span>.
@@ -270,14 +270,30 @@
       >
     </benefits-card>
   </section-container>
+  <section-container class="bg-dark-background bg-no-repeat bg-fixed">
+    <div
+      class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200"
+    >
+      <h2 class="text-center">
+        <span class="font-normal text-emerald-500 px-32">6 anos</span> no mercado
+      </h2>
+      <span class="h-0.5 w-6/12 bg-emerald-500 mt-4"></span>
+      <p class="text-center">
+        Entenda por que acreditamos que
+        <span class="font-normal text-emerald-500"
+          >juntos somo mais fortes
+        </span>
+      </p>
+    </div>
+  </section-container>
 </template>
 
 <script>
 import SectionContainer from "@/components/layouts/SectionContainer.vue";
-import TestimonyCard from "@/components/UI/TestimonyCard.vue";
+import TestimonyCard from "@/components/cards/TestimonyCard.vue";
 import RoundedButton from "@/components/UI/RoundedButton.vue";
-import QualityCard from "@/components/UI/QualityCard.vue";
-import BenefitsCard from "@/components/UI/BenefitsCard.vue";
+import QualityCard from "@/components/cards/QualityCard.vue";
+import BenefitsCard from "@/components/cards/BenefitsCard.vue";
 
 export default {
   components: {
