@@ -137,6 +137,9 @@
       <template v-slot:quality>Nosso conteúdo educacional engloba todos os principais ativos do mercado.</template>
     </quality-card>
   </section-container>
+  <section-container class="bg-gray-200">
+    <h2 class="uppercase font-lato">Acesse agora o melhor conteúdo gratuito para operar na Bolsa de Valores</h2>
+  </section-container>
 </template>
 
 <script>
