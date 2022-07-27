@@ -106,6 +106,36 @@
     <h2 class="text-center font-lato text-3xl uppercase text-gray-100 font-thin">
       Por que <span class="font-bold text-emerald-500">milhares de traders</span> frequentam o Portal diariamente?
     </h2>
+    <quality-card>
+      <template v-slot:icon><img src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_rec.png" alt="Icone Especialistas"></template>
+      <template v-slot:title>Especialistas e Traders profissionais</template>
+      <template v-slot:quality>reconhecidos no mercado e com mais de 10 anos de experiência. Esse é o time que elabora nosso conteúdo.</template>
+    </quality-card>
+    <quality-card>
+      <template v-slot:icon><img src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_elearning.png" alt="Icone Especialistas"></template>
+      <template v-slot:title>Plataforma de E-learning EAD completa</template>
+      <template v-slot:quality>com centenas de vídeos gratuitos, artigos, perguntas de fixação e discussão.</template>
+    </quality-card>
+    <quality-card>
+      <template v-slot:icon><img src="https://res.cloudinary.com/portal-do-trader/image/upload/c_scale,w_61/v1602874705/pdt-home/icon_msg.png" alt="Icone Especialistas"></template>
+      <template v-slot:title>Comunidade de Traders e Investidores</template>
+      <template v-slot:quality>que enfrenta os mesmos desafios que você e está sempre disponível para ajudar todos os dias.</template>
+    </quality-card>
+    <quality-card>
+      <template v-slot:icon><img src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_chart.png" alt="Icone Especialistas"></template>
+      <template v-slot:title>Análise Técnica, Price Action, Tape Reading, Fundamentalista e mais. </template>
+      <template v-slot:quality>Acreditamos na diversidade de técnicas para cada aluno encontrar o seu caminho.</template>
+    </quality-card>
+    <quality-card>
+      <template v-slot:icon><img src="https://res.cloudinary.com/portal-do-trader/image/upload/c_scale,w_61/v1602874705/pdt-home/icon_modalities.png" alt="Icone Especialistas"></template>
+      <template v-slot:title>Day Trade, Swing Trade, Position e Alocação de Carteiras.</template>
+      <template v-slot:quality>Aprenda técnicas para operar cada modalidade de acordo com seus objetivos.</template>
+    </quality-card>
+    <quality-card>
+      <template v-slot:icon><img src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_bs.png" alt="Icone Especialistas"></template>
+      <template v-slot:title>Dólar, Índice, Ações, Opções, Forex e até Bitcoin.</template>
+      <template v-slot:quality>Nosso conteúdo educacional engloba todos os principais ativos do mercado.</template>
+    </quality-card>
   </section-container>
 </template>
 
@@ -113,12 +143,14 @@
 import SectionContainer from "@/components/layouts/SectionContainer.vue";
 import TestimonyCard from "@/components/UI/TestimonyCard.vue";
 import RoundedButton from "@/components/UI/RoundedButton.vue";
+import QualityCard from "@/components/UI/QualityCard.vue";
 
 export default {
   components: {
     SectionContainer,
     TestimonyCard,
     RoundedButton,
+    QualityCard
   },
 };
 </script>
