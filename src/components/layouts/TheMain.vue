@@ -270,14 +270,15 @@
       >
     </benefits-card>
   </section-container>
-  <section-container class="bg-dark-background bg-no-repeat bg-fixed">
+  <section-container class="bg-dark-background bg-fixed bg-no-repeat">
     <div
       class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200"
     >
       <h2 class="text-center">
-        <span class="font-normal text-emerald-500 px-32">6 anos</span> no mercado
+        <span class="px-32 font-normal text-emerald-500">6 anos</span> no
+        mercado
       </h2>
-      <span class="h-0.5 w-6/12 bg-emerald-500 mt-4"></span>
+      <span class="mt-4 h-0.5 w-6/12 bg-emerald-500"></span>
       <p class="text-center">
         Entenda por que acreditamos que
         <span class="font-normal text-emerald-500"
@@ -285,6 +286,75 @@
         </span>
       </p>
     </div>
+    <div class="flex flex-col space-y-16">
+      <attribute-info class="mt-12">
+        <template v-slot:icon
+          ><img
+            class="w-20"
+            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_subs.png"
+            alt="Icone do Atributo"
+        /></template>
+        <template v-slot:attribute>+12 milhões</template>
+        <template v-slot:description>de visualizaçoes no youtube</template>
+      </attribute-info>
+      <attribute-info>
+        <template v-slot:icon
+          ><img
+            class="w-20"
+            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_msg.png"
+            alt="Icone do Atributo"
+        /></template>
+        <template v-slot:attribute>+6 milhões</template>
+        <template v-slot:description>de mensagens na sala ao vivo</template>
+      </attribute-info>
+      <attribute-info>
+        <template v-slot:icon
+          ><img
+            class="w-20"
+            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_usr.png"
+            alt="Icone do Atributo"
+        /></template>
+        <template v-slot:attribute>+300 mil</template>
+        <template v-slot:description>usuários cadastrados</template>
+      </attribute-info>
+      <attribute-info>
+        <template v-slot:icon
+          ><img
+            class="w-20"
+            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_views.png"
+            alt="Icone do Atributo"
+        /></template>
+        <template v-slot:attribute>+1 milhão</template>
+        <template v-slot:description
+          >de aulas gratuitas vistas no último ano</template
+        >
+      </attribute-info>
+      <attribute-info>
+        <template v-slot:icon
+          ><img
+            class="w-20"
+            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_vids.png"
+            alt="Icone do Atributo"
+        /></template>
+        <template v-slot:attribute>+7 mil</template>
+        <template v-slot:description>transmisssões e aulas produzidas</template>
+      </attribute-info>
+      <attribute-info>
+        <template v-slot:icon
+          ><img
+            class="w-20"
+            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_fcrs.png"
+            alt="Icone do Atributo"
+        /></template>
+        <template v-slot:attribute>1,5 milhão</template>
+        <template v-slot:description
+          >de atividades respondidas em nossa plataforma</template
+        >
+      </attribute-info>
+    </div>
+  </section-container>
+  <section-container>
+    
   </section-container>
 </template>
 
@@ -294,6 +364,7 @@ import TestimonyCard from "@/components/cards/TestimonyCard.vue";
 import RoundedButton from "@/components/UI/RoundedButton.vue";
 import QualityCard from "@/components/cards/QualityCard.vue";
 import BenefitsCard from "@/components/cards/BenefitsCard.vue";
+import AttributeInfo from "@/components/layouts/AttributeInfos.vue";
 
 export default {
   components: {
@@ -302,6 +373,7 @@ export default {
     RoundedButton,
     QualityCard,
     BenefitsCard,
+    AttributeInfo,
   },
 };
 </script>
