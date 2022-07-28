@@ -353,8 +353,17 @@
       </attribute-info>
     </div>
   </section-container>
-  <section-container>
-    
+  <section-container class="bg-gray-200">
+    <div class="font-base text-center font-lato text-2xl px-5 space-y-4">
+      <h2 class="font-montserrat text-2xl">
+        Aprenda a operar na Bolsa com o
+        <span class="font-bold">Portal do Trader</span>.
+      </h2>
+      <div><span class="font-bold uppercase font-montserrat">Comece Grátis Agora</span></div>
+      <p class="font-lato text-xs">*Ao se cadastrar, você concorda com os nossos <a class="text-blue-500" href="#" target="_blank">termos de uso</a> e em receber nossos emails.</p>
+      <p class="font-lato">Cadastre-se com sua rede social favorita:</p>
+      <p class="font-lato text-xs">*Fique tranquilo, não publicaremos nada em sua conta.</p>
+    </div>
   </section-container>
 </template>
 
