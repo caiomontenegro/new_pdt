@@ -382,6 +382,17 @@
       <p class="font-lato text-sm text-center text-blue-500 mt-4"><em>Conheça nossa Política de Privacidade</em></p>
     </div>
   </section-container>
+  <section-container class="bg-slate-800">
+    <div class="flex w-full flex-col items-center space-y-8">
+      <h2 class="font-lato text-gray-100 text-2xl">Nossos Especialistas</h2>
+      <h2 class="font-lato text-gray-100 text-lg uppercase">Acompanhe nossas redes sociais</h2>
+      <span class="bg-gray-500 w-11/12 h-px"></span>
+      <h2 class="uppercase font-lato text-2xl text-gray-100 text-center w-8/12">Explore o portal do trader</h2>
+      <div>
+        
+      </div>
+    </div>
+  </section-container>
 </template>
 
 <script>
