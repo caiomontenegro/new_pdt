@@ -1,6 +1,6 @@
 <template>
-  <div class="font-lato text-base text-gray-100">
-    <p>
+  <div class="flex flex-col items-center font-lato text-base text-gray-100 p-4 space-y-6">
+    <p class="text-center mt-8">
       <span class="font-bold"
         >Este canal tem propósito exclusivamente educacional e nenhum conteúdo
         apresentado nos vídeos ou chat deve ser considerado, entendido,
@@ -18,19 +18,19 @@
       tomada individualmente, nos termos da legislação e regulamentação
       aplicáveis.
     </p>
-    <p>
+    <p class="text-center">
       Você poderá, a qualquer momento, <span class="text-blue-500">
         excluir sua conta e todas as informações
         que temos a seu respeito
       </span> em nosso site. Sua experiência de uso poderá ser
       comprometida permanentemente.
     </p>
-    <p>
+    <p class="text-center">
       Ao usar este site, você concorda com a <a class="text-blue-500" href="#">
         Política de privacidade do Portal
         do Trader
       </a>
     </p>
-    <p><em>© 2021 Portal do Trader. Todos os direitos reservados.</em></p>
+    <p class="text-center mt-8"><em>© 2021 Portal do Trader. Todos os direitos reservados.</em></p>
   </div>
 </template>
