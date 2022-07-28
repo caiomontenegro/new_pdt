@@ -376,7 +376,10 @@
         <input-signup label="Nome:" placeHolder="Como você se chama?"></input-signup>
         <input-signup label="Email:" placeHolder="Coloque aqui o seu melhor email..."></input-signup>
         <input-signup label="Senha:" placeHolder="Escolha sua senha..."></input-signup>
+         <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600">COMEÇAR CURSOS GRÁTIS</rectangular-button>
       </form>
+      <p class="font-lato text-sm text-center mt-6">Já é cadastrado? Faça <span class="text-blue-500">login</span></p>
+      <p class="font-lato text-sm text-center text-blue-500 mt-4"><em>Conheça nossa Política de Privacidade</em></p>
     </div>
   </section-container>
 </template>
