@@ -354,42 +354,149 @@
     </div>
   </section-container>
   <section-container class="bg-gray-200">
-    <div class="font-base text-center font-lato text-2xl px-5 space-y-4">
+    <div class="font-base space-y-4 px-5 text-center font-lato text-2xl">
       <h2 class="font-montserrat text-2xl">
         Aprenda a operar na Bolsa com o
         <span class="font-bold">Portal do Trader</span>.
       </h2>
-      <div><span class="font-bold uppercase font-montserrat">Comece Grátis Agora</span></div>
-      <p class="font-lato text-xs">*Ao se cadastrar, você concorda com os nossos <a class="text-blue-500" href="#" target="_blank">termos de uso</a> e em receber nossos emails.</p>
+      <div>
+        <span class="font-montserrat font-bold uppercase"
+          >Comece Grátis Agora</span
+        >
+      </div>
+      <p class="font-lato text-xs">
+        *Ao se cadastrar, você concorda com os nossos
+        <a class="text-blue-500" href="#" target="_blank">termos de uso</a> e em
+        receber nossos emails.
+      </p>
       <p class="font-lato">Cadastre-se com sua rede social favorita:</p>
-      <p class="font-lato text-xs">*Fique tranquilo, não publicaremos nada em sua conta.</p>
+      <p class="font-lato text-xs">
+        *Fique tranquilo, não publicaremos nada em sua conta.
+      </p>
     </div>
     <div class="w-full space-y-2">
       <rectangular-button>Entrar com Facebook</rectangular-button>
-      <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600">Entrar com Google</rectangular-button>
+      <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
+        >Entrar com Google</rectangular-button
+      >
     </div>
     <div class="w-full">
-      <p class="font-lato text-2xl text-center">...Ou cadastre-se gratuitamente com seu email:</p>
+      <p class="text-center font-lato text-2xl">
+        ...Ou cadastre-se gratuitamente com seu email:
+      </p>
     </div>
     <div class="w-full">
-      <form class="w-full flex flex-col items-center space-y-2" action="#">
-        <input-signup label="Nome:" placeHolder="Como você se chama?"></input-signup>
-        <input-signup label="Email:" placeHolder="Coloque aqui o seu melhor email..."></input-signup>
-        <input-signup label="Senha:" placeHolder="Escolha sua senha..."></input-signup>
-         <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600">COMEÇAR CURSOS GRÁTIS</rectangular-button>
+      <form class="flex w-full flex-col items-center space-y-2" action="#">
+        <input-signup
+          label="Nome:"
+          placeHolder="Como você se chama?"
+        ></input-signup>
+        <input-signup
+          label="Email:"
+          placeHolder="Coloque aqui o seu melhor email..."
+        ></input-signup>
+        <input-signup
+          label="Senha:"
+          placeHolder="Escolha sua senha..."
+        ></input-signup>
+        <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
+          >COMEÇAR CURSOS GRÁTIS</rectangular-button
+        >
       </form>
-      <p class="font-lato text-sm text-center mt-6">Já é cadastrado? Faça <span class="text-blue-500">login</span></p>
-      <p class="font-lato text-sm text-center text-blue-500 mt-4"><em>Conheça nossa Política de Privacidade</em></p>
+      <p class="mt-6 text-center font-lato text-sm">
+        Já é cadastrado? Faça <span class="text-blue-500">login</span>
+      </p>
+      <p class="mt-4 text-center font-lato text-sm text-blue-500">
+        <em>Conheça nossa Política de Privacidade</em>
+      </p>
     </div>
   </section-container>
   <section-container class="bg-slate-800">
     <div class="flex w-full flex-col items-center space-y-8">
-      <h2 class="font-lato text-gray-100 text-2xl">Nossos Especialistas</h2>
-      <h2 class="font-lato text-gray-100 text-lg uppercase">Acompanhe nossas redes sociais</h2>
-      <span class="bg-gray-500 w-11/12 h-px"></span>
-      <h2 class="uppercase font-lato text-2xl text-gray-100 text-center w-8/12">Explore o portal do trader</h2>
-      <div>
-        
+      <h2 class="font-lato text-2xl text-gray-100">Nossos Especialistas</h2>
+      <h2 class="font-lato text-lg uppercase text-gray-100">
+        Acompanhe nossas redes sociais
+      </h2>
+      <span class="h-px w-11/12 bg-gray-500"></span>
+      <h2 class="w-8/12 text-center font-lato text-2xl uppercase text-gray-100">
+        Explore o portal do trader
+      </h2>
+      <div class="space-y-8">
+        <explore-nav>
+          <template v-slot:title>Portal do Trader</template>
+          <template v-slot:link>
+            <a class="font-bold" href="">Home do Portal do Trader</a>
+            <a href="">Aprenda</a>
+            <a href="">Ao Vivo</a>
+            <a href="">Blog</a>
+            <a href="">Plano TNT</a>
+          </template>
+        </explore-nav>
+        <explore-nav>
+          <template v-slot:title>Aprenda: Cursos Gratuitos</template>
+          <template v-slot:link>
+            <a class="font-bold" href="">Home da Área Aprenda</a>
+            <a href=""><a href="">Day Trade</a></a>
+            <a href="">Price Action</a>
+            <a href="">Análise Técnica</a>
+            <a href="">Investindo em Ações</a>
+            <a href="">O que os Traders Operam na Bolsa</a>
+            <a href="">Comece a Operar Minicontratos</a>
+            <a href="">MetaTrader</a>
+            <a href="">Desafio Trader: Práticas para a Consistência</a>
+            <a href="">Introdução às Opções</a>
+            <a href="">Como Traders Profissionais Operam?</a>
+            <a href="">Plano de Trade</a>
+            <a href="">Psicologia para Traders</a>
+            <a href="">Tape Reading</a>
+            <a href="">Payrolll Bootstrap</a>
+            <a href="">Scalp Trade Bootstrap</a>
+            <a href="">Swing Trade Bootstrap</a>
+            <a href="">Day Trade Bootstrap</a>
+            <a href="">Erros e Dúvidas de Traders</a>
+          </template>
+        </explore-nav>
+         <explore-nav>
+          <template v-slot:title>Plano TNT</template>
+          <template v-slot:link>
+            <a class="font-bold" href=""><a href="">Home do Plano TNT</a></a>
+            <a href="">Começando do zero</a>
+            <a href="">Trader Profissional</a>
+            <a href="">Estrutura do Mercado</a>
+            <a href="">Análise Técnica</a>
+            <a href="">Análise Técnica na prática</a>
+            <a href="">Análise Fundamentalista</a>
+            <a href="">Tape Reading</a>
+            <a href="">Tape Reading na prática</a>
+            <a href="">Opções e Operações Estruturadas</a>
+            <a href="">Gestão de Risco</a>
+            <a href="">Trading Plan</a>
+            <a href="">Psicologia do Trading</a>
+            <a href="">Forex</a>
+          </template>
+        </explore-nav>
+         <explore-nav>
+          <template v-slot:title>Blog</template>
+          <template v-slot:link>
+            <a class="font-bold" href="">Home do Blog</a>
+            <a href="">Ações</a>
+            <a href="">Análise Fundamentalista</a>
+            <a href="">Análise Técnica</a>
+            <a href="">Contratos Futuros</a>
+            <a href="">Criptomoedas</a>
+            <a href="">Day Trade</a>
+            <a href="">Forex</a>
+            <a href="">Gestão de Risco</a>
+            <a href="">Opções</a>
+            <a href="">Price Action</a>
+            <a href="">Psicologia do Trading</a>
+            <a href="">Swing Trade</a>
+            <a href="">Tape Reading</a>
+            <a href="">Trader Iniciante</a>
+            <a href="">Trader Profissional</a>
+            <a href="">Trading Plan</a>
+          </template>
+        </explore-nav>
       </div>
     </div>
   </section-container>
@@ -402,7 +509,8 @@ import RoundedButton from "@/components/UI/RoundedButton.vue";
 import QualityCard from "@/components/cards/QualityCard.vue";
 import BenefitsCard from "@/components/cards/BenefitsCard.vue";
 import AttributeInfo from "@/components/layouts/AttributeInfos.vue";
-import InputSignup from "@/components/UI/InputSignup.vue"
+import InputSignup from "@/components/UI/InputSignup.vue";
+import ExploreNav from "@/components/layouts/ExploreNav.vue"
 
 export default {
   components: {
@@ -412,7 +520,8 @@ export default {
     QualityCard,
     BenefitsCard,
     AttributeInfo,
-    InputSignup
+    InputSignup,
+    ExploreNav
   },
 };
 </script>
