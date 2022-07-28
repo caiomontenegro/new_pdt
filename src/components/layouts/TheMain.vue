@@ -364,6 +364,20 @@
       <p class="font-lato">Cadastre-se com sua rede social favorita:</p>
       <p class="font-lato text-xs">*Fique tranquilo, não publicaremos nada em sua conta.</p>
     </div>
+    <div class="w-full space-y-2">
+      <rectangular-button>Entrar com Facebook</rectangular-button>
+      <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600">Entrar com Google</rectangular-button>
+    </div>
+    <div class="w-full">
+      <p class="font-lato text-2xl text-center">...Ou cadastre-se gratuitamente com seu email:</p>
+    </div>
+    <div class="w-full">
+      <form class="w-full flex flex-col items-center space-y-2" action="#">
+        <input-signup label="Nome:" placeHolder="Como você se chama?"></input-signup>
+        <input-signup label="Email:" placeHolder="Coloque aqui o seu melhor email..."></input-signup>
+        <input-signup label="Senha:" placeHolder="Escolha sua senha..."></input-signup>
+      </form>
+    </div>
   </section-container>
 </template>
 
@@ -374,6 +388,7 @@ import RoundedButton from "@/components/UI/RoundedButton.vue";
 import QualityCard from "@/components/cards/QualityCard.vue";
 import BenefitsCard from "@/components/cards/BenefitsCard.vue";
 import AttributeInfo from "@/components/layouts/AttributeInfos.vue";
+import InputSignup from "@/components/UI/InputSignup.vue"
 
 export default {
   components: {
@@ -383,6 +398,7 @@ export default {
     QualityCard,
     BenefitsCard,
     AttributeInfo,
+    InputSignup
   },
 };
 </script>

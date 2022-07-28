@@ -1,12 +1,12 @@
 <template>
   <div class="flex w-full justify-center">
     <!-- Set the background color by the props -->
-    <button
-      class="w-10/12 rounded-full p-4 font-montserrat text-lg font-bold uppercase text-gray-100 duration-200"
+    <a
+      class="w-10/12 rounded-full p-4 text-center font-montserrat text-lg font-bold uppercase text-gray-100 duration-200"
       :class="[color, hoverColor]"
     >
-      <slot></slot>
-    </button>
+      <slot>Texto do link</slot>
+    </a>
   </div>
 </template>
 
