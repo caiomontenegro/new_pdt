@@ -21,7 +21,7 @@
         </ul>
       </div>
       <div class="nav-links__special">
-        <ul class="flex flex-col items-center space-y-4">
+        <ul class="flex flex-col items-center mt-8 space-y-4">
           <li class="special__link">
             <a href="#" target="_self">Cadastre-se</a>
           </li>
