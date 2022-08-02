@@ -7,7 +7,7 @@
     <div class="relative mx-auto w-11/12">
       <div class="absolute w-full">
         <nav-bar
-          class="navbar h-0 overflow-hidden rounded-md border-emerald-500 duration-200 ease-in-out"
+          class="navbar h-0 overflow-hidden mt-2 rounded-md border-t-2 border-emerald-500 duration-200 ease-in-out"
           :class="{ dropDown: !showContent }"
         ></nav-bar>
       </div>
