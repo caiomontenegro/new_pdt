@@ -44,7 +44,7 @@ export default {
 }
 
 .dropDown {
-  height: 15rem;
+  height: 14rem;
   border-width: 2px;
 }
 </style>
