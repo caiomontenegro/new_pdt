@@ -4,9 +4,12 @@
       <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo" />
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
-    <div class="w-11/12 mx-auto relative">
+    <div class="relative mx-auto w-11/12">
       <div class="absolute w-full">
-        <nav-bar class="navbar rounded-md border-2 border-emerald-500" :class="{ hidden: showContent }"></nav-bar>
+        <nav-bar
+          class="navbar h-0 overflow-hidden rounded-md border-emerald-500 duration-200 ease-in-out"
+          :class="{ dropDown: !showContent }"
+        ></nav-bar>
       </div>
     </div>
   </header>
@@ -38,5 +41,10 @@ export default {
 .navbar {
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
+}
+
+.dropDown {
+  height: 15rem;
+  border-width: 2px;
 }
 </style>

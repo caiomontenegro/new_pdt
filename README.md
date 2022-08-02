@@ -43,6 +43,8 @@ Estrutura de Estilo
 
   1- Display, medidas de largura e altura, medias extras, bordas, posiçao
 
+  Efeitos em SCSS
+
 Estrutura de componentes
 
 -Folders
