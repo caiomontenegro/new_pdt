@@ -1,10 +1,10 @@
 <template>
-  <header class="bg-slate-800 py-3">
+  <header class="bg-slate-800 py-3 relative">
     <div class="flex pt-2">
       <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo" />
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
-    <div>
+    <div class="absolute w-full">
       <nav-bar :class="{ hidden: showContent }"></nav-bar>
     </div>
   </header>
