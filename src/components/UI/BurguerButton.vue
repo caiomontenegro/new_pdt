@@ -29,7 +29,7 @@ export default {
 
 <style lang="scss">
 .burguer {
-  @apply border-gray-700;
+  @apply border-2 border-emerald-500;
 
   &__line {
     @apply absolute -right-2.5 block h-0.5 w-5 rounded-3xl bg-gray-400 duration-200 ease-in-out;

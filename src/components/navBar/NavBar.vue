@@ -1,8 +1,8 @@
 <template>
   <nav class="nav">
-    <div class="nav-links space-y-2.5">
+    <div class="nav-links space-y-4 py-6">
       <div class="nav-links__main">
-        <ul class="flex flex-col items-center space-y-2.5">
+        <ul class="flex flex-col items-center space-y-4">
           <li class="link">
             <a href="https://portaldotrader.com.br/aprenda" target="_self"
               >Aprenda</a
@@ -21,7 +21,7 @@
         </ul>
       </div>
       <div class="nav-links__special">
-        <ul class="flex flex-col items-center space-y-2.5">
+        <ul class="flex flex-col items-center space-y-4">
           <li class="special__link">
             <a href="#" target="_self">Cadastre-se</a>
           </li>
@@ -37,18 +37,18 @@ export default {};
 
 <style lang="scss">
 .nav-links {
-  @apply font-montserrat text-sm uppercase text-gray-400;
+  @apply font-montserrat text-lg uppercase text-white;
 
   &__special {
     @apply font-semibold;
   }
 
   .link {
-    @apply duration-200 hover:text-gray-200;
+    @apply duration-200;
   }
 
   .special__link {
-    @apply duration-200 hover:text-gray-200;
+    @apply duration-200;
   }
 }
 </style>

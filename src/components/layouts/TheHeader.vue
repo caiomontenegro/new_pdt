@@ -1,11 +1,13 @@
 <template>
-  <header class="bg-slate-800 py-3 relative">
+  <header class="bg-slate-800 py-3">
     <div class="flex pt-2">
       <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo" />
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
-    <div class="absolute w-full">
-      <nav-bar :class="{ hidden: showContent }"></nav-bar>
+    <div class="w-11/12 mx-auto relative">
+      <div class="absolute w-full">
+        <nav-bar class="navbar rounded-md border-2 border-emerald-500" :class="{ hidden: showContent }"></nav-bar>
+      </div>
     </div>
   </header>
 </template>
@@ -32,4 +34,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.navbar {
+  background-color: #ffffff10;
+  backdrop-filter: blur(10px);
+}
+</style>
