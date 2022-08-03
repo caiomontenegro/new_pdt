@@ -423,8 +423,8 @@
       </h2>
       <div class="space-y-8">
         <explore-nav>
-          <template v-slot:title>Portal do Trader</template>
-          <font-awesome-icon icon="fa-solid fa-caret-down" />
+          <template v-slot:title>Portal do Trader
+          </template>
           <template v-slot:link>
             <a class="font-bold" href="">Home do Portal do Trader</a>
             <a href="">Aprenda</a>
@@ -434,7 +434,8 @@
           </template>
         </explore-nav>
         <explore-nav>
-          <template v-slot:title>Aprenda: Cursos Gratuitos</template>
+          <template v-slot:title>Aprenda: Cursos Gratuitos
+          </template>
           <template v-slot:link>
             <a class="font-bold" href="">Home da Área Aprenda</a>
             <a href=""><a href="">Day Trade</a></a>
