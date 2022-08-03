@@ -110,84 +110,7 @@
       <span class="font-bold text-emerald-500">milhares de traders</span>
       frequentam o Portal diariamente?
     </h2>
-    <quality-card>
-      <template v-slot:icon
-        ><img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_rec.png"
-          alt="Icone Especialistas"
-      /></template>
-      <template v-slot:title>Especialistas e Traders profissionais</template>
-      <template v-slot:quality
-        >reconhecidos no mercado e com mais de 10 anos de experiência. Esse é o
-        time que elabora nosso conteúdo.</template
-      >
-    </quality-card>
-    <quality-card>
-      <template v-slot:icon
-        ><img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_elearning.png"
-          alt="Icone Especialistas"
-      /></template>
-      <template v-slot:title>Plataforma de E-learning EAD completa</template>
-      <template v-slot:quality
-        >com centenas de vídeos gratuitos, artigos, perguntas de fixação e
-        discussão.</template
-      >
-    </quality-card>
-    <quality-card>
-      <template v-slot:icon
-        ><img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/c_scale,w_61/v1602874705/pdt-home/icon_msg.png"
-          alt="Icone Especialistas"
-      /></template>
-      <template v-slot:title>Comunidade de Traders e Investidores</template>
-      <template v-slot:quality
-        >que enfrenta os mesmos desafios que você e está sempre disponível para
-        ajudar todos os dias.</template
-      >
-    </quality-card>
-    <quality-card>
-      <template v-slot:icon
-        ><img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_chart.png"
-          alt="Icone Especialistas"
-      /></template>
-      <template v-slot:title
-        >Análise Técnica, Price Action, Tape Reading, Fundamentalista e mais.
-      </template>
-      <template v-slot:quality
-        >Acreditamos na diversidade de técnicas para cada aluno encontrar o seu
-        caminho.</template
-      >
-    </quality-card>
-    <quality-card>
-      <template v-slot:icon
-        ><img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/c_scale,w_61/v1602874705/pdt-home/icon_modalities.png"
-          alt="Icone Especialistas"
-      /></template>
-      <template v-slot:title
-        >Day Trade, Swing Trade, Position e Alocação de Carteiras.</template
-      >
-      <template v-slot:quality
-        >Aprenda técnicas para operar cada modalidade de acordo com seus
-        objetivos.</template
-      >
-    </quality-card>
-    <quality-card>
-      <template v-slot:icon
-        ><img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_bs.png"
-          alt="Icone Especialistas"
-      /></template>
-      <template v-slot:title
-        >Dólar, Índice, Ações, Opções, Forex e até Bitcoin.</template
-      >
-      <template v-slot:quality
-        >Nosso conteúdo educacional engloba todos os principais ativos do
-        mercado.</template
-      >
-    </quality-card>
+    <quality-container class="11/12"></quality-container>
   </section-container>
   <section-container class="bg-gray-200">
     <div class="flex flex-col space-y-4">
@@ -202,73 +125,7 @@
         para <span class="text-emerald-500">aprender a operar</span>.
       </p>
     </div>
-    <benefits-card>
-      <template v-slot:icon
-        ><img
-          class="w-52"
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/icon_dev"
-          alt="Ícone do Benefício"
-      /></template>
-      <template v-slot:title>Desenvolva as habilidades</template>
-      <template v-slot:benefit
-        >para vencer no mercado com especialistas reconhecidos e um plano
-        educacional completo, etapa por etapa.</template
-      >
-    </benefits-card>
-    <benefits-card>
-      <template v-slot:icon
-        ><img
-          class="w-32"
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/icon_scr.png"
-          alt="Ícone do Benefício"
-      /></template>
-      <template v-slot:title
-        >Interaja ao vivo com traders e investidores profissionais</template
-      >
-      <template v-slot:benefit
-        >em nossos chats, grupos, lives diárias, aulas ao vivo e redes
-        sociais.</template
-      >
-    </benefits-card>
-    <benefits-card>
-      <template v-slot:icon
-        ><img
-          class="w-52"
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/icon_lrn"
-          alt="Ícone do Benefício"
-      /></template>
-      <template v-slot:title>Fuja das armadilhas do mercado.</template>
-      <template v-slot:benefit
-        >Percorra um caminho confiável e fique livre das "roubadas" mais comuns
-        do mercado financeiro.</template
-      >
-    </benefits-card>
-    <benefits-card>
-      <template v-slot:icon
-        ><img
-          class="w-52"
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/Icon_thumbs_up_dark"
-          alt="Ícone do Benefício"
-      /></template>
-      <template v-slot:title>Proposta Justa.</template>
-      <template v-slot:benefit
-        >Nós nunca vamos iludir ninguém com fórmulas mágicas, soluções
-        milagrosas nem promessas de enriquecimento rápido.</template
-      >
-    </benefits-card>
-    <benefits-card>
-      <template v-slot:icon
-        ><img
-          class="w-52"
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/icon_beginners"
-          alt="Ícone do Benefício"
-      /></template>
-      <template v-slot:title>Acessível a Iniciantes.</template>
-      <template v-slot:benefit
-        >Nosso conteúdo também foi pensado para acelerar o aprendizado daqueles
-        que estão começando e ainda não sabem nada.</template
-      >
-    </benefits-card>
+    <benefits-container></benefits-container>
   </section-container>
   <section-container class="bg-dark-background bg-fixed bg-no-repeat">
     <div
@@ -510,8 +367,8 @@
 import SectionContainer from "@/components/layouts/SectionContainer.vue";
 import TestimonyCard from "@/components/cards/TestimonyCard.vue";
 import RoundedButton from "@/components/UI/RoundedButton.vue";
-import QualityCard from "@/components/cards/QualityCard.vue";
-import BenefitsCard from "@/components/cards/BenefitsCard.vue";
+import QualityContainer from "@/components/layouts/QualityContainer.vue";
+import BenefitsContainer from "@/components/layouts/BenefitsContainer.vue";
 import AttributeInfo from "@/components/layouts/AttributeInfos.vue";
 import InputSignup from "@/components/UI/InputSignup.vue";
 import ExploreNav from "@/components/layouts/ExploreNav.vue"
@@ -521,11 +378,16 @@ export default {
     SectionContainer,
     TestimonyCard,
     RoundedButton,
-    QualityCard,
-    BenefitsCard,
+    QualityContainer,
+    BenefitsContainer,
     AttributeInfo,
     InputSignup,
     ExploreNav
   },
+  data () {
+    return {
+
+    }
+  }
 };
 </script>

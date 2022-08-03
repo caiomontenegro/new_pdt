@@ -1,15 +1,35 @@
 <template>
-  <div class="flex font-lato rounded-lg bg-gray-100 w-11/12 p-4 items-center">
-    <div class="p-4">
-      <slot name="icon">Icone do Benefício</slot>
-    </div>
+  <div class="flex w-11/12 items-center rounded-lg bg-gray-100 p-4 font-lato">
+    <div :class="icon"></div>
     <div class="flex flex-col">
       <h3 class="font-bold">
-        <slot name="title">Título do Benefício</slot>
+        {{ title }}
       </h3>
       <p>
-        <slot name="benefit">Descrição do Benefício</slot>
+        {{ benefit }}
       </p>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    icon: {
+      type: String,
+      require: true,
+      default: "Ícone",
+    },
+    title: {
+      type: String,
+      require: true,
+      default: "Title",
+    },
+    benefit: {
+      type: String,
+      require: true,
+      default: "benefit",
+    },
+  },
+};
+</script>
