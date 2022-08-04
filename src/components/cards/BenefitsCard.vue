@@ -1,12 +1,13 @@
 <template>
-  <div class="flex w-11/12 items-center rounded-lg bg-gray-100 p-4 font-lato">
-    <div :class="icon"></div>
-    <div class="flex flex-col">
-      <h3 class="font-bold">
-        {{ title }}
-      </h3>
+  <div class="relative flex items-center rounded-lg bg-gray-100 p-4 font-lato">
+    <div class="absolute w-24 h-28 bg-no-repeat bg-[length:75px] bg-center" :style="cssVar">
+    </div>
+    <div class="flex flex-col ml-28">
       <p>
-        {{ benefit }}
+        <span class="font-bold">
+          {{ title }}
+        </span>
+          {{ benefit }}
       </p>
     </div>
   </div>
@@ -31,5 +32,12 @@ export default {
       default: "benefit",
     },
   },
+  computed: {
+    cssVar() {
+      return {
+        "background-image": `url(${this.icon})`
+      }
+    }
+  }
 };
 </script>

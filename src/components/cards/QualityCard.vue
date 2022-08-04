@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full flex items-center">
-    <div :class="icon">
+  <div class="w-full relative flex items-center">
+    <div class="absolute w-24 h-28 bg-no-repeat bg-[length:55px] bg-center" :style="cssVar">
     </div>
-    <div class="font-lg w-full flex flex-col p-4 font-lato text-lg text-gray-100">
+    <div class="font-lg w-full flex flex-col p-4 font-lato text-lg ml-20 text-gray-100">
       <h3 class="font-bold uppercase">{{ title }}</h3>
       <p>{{ quality }}</p>
     </div>
@@ -26,6 +26,13 @@ export default {
       type: String, 
       require: true,
       default: 'Quality'
+    }
+  },
+  computed: {
+    cssVar() {
+      return {
+        "background-image": `url(${this.icon})`
+      }
     }
   }
 };
