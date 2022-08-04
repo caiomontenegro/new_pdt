@@ -144,70 +144,7 @@
       </p>
     </div>
     <div class="flex flex-col space-y-16">
-      <attribute-info class="mt-12">
-        <template v-slot:icon
-          ><img
-            class="w-20"
-            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_subs.png"
-            alt="Icone do Atributo"
-        /></template>
-        <template v-slot:attribute>+12 milhões</template>
-        <template v-slot:description>de visualizaçoes no youtube</template>
-      </attribute-info>
-      <attribute-info>
-        <template v-slot:icon
-          ><img
-            class="w-20"
-            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_msg.png"
-            alt="Icone do Atributo"
-        /></template>
-        <template v-slot:attribute>+6 milhões</template>
-        <template v-slot:description>de mensagens na sala ao vivo</template>
-      </attribute-info>
-      <attribute-info>
-        <template v-slot:icon
-          ><img
-            class="w-20"
-            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_usr.png"
-            alt="Icone do Atributo"
-        /></template>
-        <template v-slot:attribute>+300 mil</template>
-        <template v-slot:description>usuários cadastrados</template>
-      </attribute-info>
-      <attribute-info>
-        <template v-slot:icon
-          ><img
-            class="w-20"
-            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_views.png"
-            alt="Icone do Atributo"
-        /></template>
-        <template v-slot:attribute>+1 milhão</template>
-        <template v-slot:description
-          >de aulas gratuitas vistas no último ano</template
-        >
-      </attribute-info>
-      <attribute-info>
-        <template v-slot:icon
-          ><img
-            class="w-20"
-            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_vids.png"
-            alt="Icone do Atributo"
-        /></template>
-        <template v-slot:attribute>+7 mil</template>
-        <template v-slot:description>transmisssões e aulas produzidas</template>
-      </attribute-info>
-      <attribute-info>
-        <template v-slot:icon
-          ><img
-            class="w-20"
-            src="https://res.cloudinary.com/portal-do-trader/image/upload/pdt-home/icon_fcrs.png"
-            alt="Icone do Atributo"
-        /></template>
-        <template v-slot:attribute>1,5 milhão</template>
-        <template v-slot:description
-          >de atividades respondidas em nossa plataforma</template
-        >
-      </attribute-info>
+      <attribute-infos-container></attribute-infos-container>
     </div>
   </section-container>
   <section-container class="bg-gray-200">
@@ -369,7 +306,7 @@ import TestimonyCard from "@/components/cards/TestimonyCard.vue";
 import RoundedButton from "@/components/UI/RoundedButton.vue";
 import QualityContainer from "@/components/layouts/QualityContainer.vue";
 import BenefitsContainer from "@/components/layouts/BenefitsContainer.vue";
-import AttributeInfo from "@/components/layouts/AttributeInfos.vue";
+import AttributeInfosContainer from "@/components/layouts/AttributeInfosContainer.vue";
 import InputSignup from "@/components/UI/InputSignup.vue";
 import ExploreNav from "@/components/layouts/ExploreNav.vue"
 
@@ -380,7 +317,7 @@ export default {
     RoundedButton,
     QualityContainer,
     BenefitsContainer,
-    AttributeInfo,
+    AttributeInfosContainer,
     InputSignup,
     ExploreNav
   },
