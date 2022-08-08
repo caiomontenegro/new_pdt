@@ -1,8 +1,8 @@
 <template>
-  <div class="flex w-full justify-center">
+  <div class="flex w-10/12 justify-center">
     <!-- Set the background color by the props -->
     <a
-      class="w-10/12 rounded p-4 text-center font-lato text-lg text-gray-100 duration-200"
+      class="text-md flex w-full items-center justify-center rounded p-[4%] text-center font-lato font-bold text-gray-100 duration-200"
       :class="[color, hoverColor]"
     >
       <slot>Texto do link</slot>

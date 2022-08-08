@@ -14,10 +14,12 @@ library.add(faCaretDown, faCaretUp)
 //components
 import RoundedButton from './components/UI/RoundedButton.vue'
 import RectangularButton from './components/UI/RectangularButton.vue'
+import LabelInput from './components/UI/LabelInput.vue'
 
 const app = createApp(App)
 
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.component('rounded-button', RoundedButton)
 app.component('rectangular-button', RectangularButton)
+app.component('label-input', LabelInput)
 app.mount('#app')

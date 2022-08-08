@@ -1,18 +1,47 @@
 <template>
   <section-container class="bg-slate-800">
-    <div class="flex flex-col items-center space-y-4 py-4">
-      <h1 class="w-96 text-center font-montserrat text-4xl text-gray-100">
-        Onde
-        <span class="font-bold text-emerald-500">traders consistentes</span> se
-        encontram
-      </h1>
-      <p class="px-8 text-center font-lato text-xl text-gray-100">
-        Estudamos mais de 300 mil traders para criar um
-        <strong>sistema educacional completo</strong>, que te ensina a melhorar
-        seus resultados e a operar na Bolsa com mais segurança.
-      </p>
+    <div class="md:flex md:w-11/12">
+      <div class="flex flex-col md:w-7/12 items-center md:items-start space-y-4 py-4">
+        <h1
+          class="w-96 text-center font-montserrat text-4xl text-gray-100 md:w-11/12 md:text-left md:text-5xl"
+        >
+          Onde
+          <span class="font-bold text-emerald-500">traders consistentes</span>
+          se encontram
+        </h1>
+        <p
+          class="px-8 md:p-0 md:w-full text-center font-lato text-2xl text-gray-100 md:text-left"
+        >
+          Estudamos mais de 300 mil traders para criar um
+          <strong>sistema educacional completo</strong>, que te ensina a
+          melhorar seus resultados e a operar na Bolsa com mais segurança.
+        </p>
+      </div>
+      <rounded-button class="md:hidden"
+        >Começar meus Cursos Gratuitos</rounded-button
+      >
+      <div class="hidden text-gray-100 md:block md:flex flex-col items-center space-y-4">
+        <h2 class="text-2xl text-center">Comece seus cursos gratuitos</h2>
+        <span class="border-t w-full"></span>
+        <p>Entre com sua rede social favorita:</p>
+        <div class="flex w-full space-x-2">
+          <rectangular-button class="uppercase">
+            Facebook
+          </rectangular-button>
+          <rectangular-button class="uppercase" color="bg-red-500" hoverColor="hover:bg-red-600"
+            >Google</rectangular-button
+          >
+        </div>
+        <p>... Ou com seu email:</p>
+        <div class="space-y-1 flex flex-col items-center">
+          <label-input label="Nome:" placeHolder="Como você se chama?"></label-input>
+          <label-input label="Email:" placeHolder="Insira o seu melhor e-mail"></label-input>
+          <label-input label="Senha:" placeHolder="Escolha sua senha"></label-input>
+          <rectangular-button color="bg-red-500" hoverColor="bg-red-600" class="uppercase w-full"> Começar Cursos Grátis</rectangular-button>
+        </div>
+        <p>Já é cadastrado? <a href="">Faça login</a> </p>
+      </div>
     </div>
-    <rounded-button>Começar meus Cursos Gratuitos</rounded-button>
   </section-container>
   <section-container>
     <div>
@@ -132,11 +161,8 @@
       class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200"
     >
       <h2 class="text-center">
-        <span class="font-normal text-emerald-500">6 anos</span> 
-        <div>
-          no
-          mercado
-        </div>
+        <span class="font-normal text-emerald-500">6 anos</span>
+        <div>no mercado</div>
       </h2>
       <span class="mt-4 h-0.5 w-6/12 bg-emerald-500"></span>
       <p class="text-center">
@@ -171,7 +197,7 @@
         *Fique tranquilo, não publicaremos nada em sua conta.
       </p>
     </div>
-    <div class="w-full space-y-2">
+    <div class="w-full space-y-2 flex flex-col items-center">
       <rectangular-button>Entrar com Facebook</rectangular-button>
       <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
         >Entrar com Google</rectangular-button
@@ -226,8 +252,6 @@
 </template>
 
 <script>
-
-
 import SectionContainer from "@/components/layouts/SectionContainer.vue";
 import TestimonyCard from "@/components/cards/TestimonyCard.vue";
 import RoundedButton from "@/components/UI/RoundedButton.vue";
@@ -235,7 +259,8 @@ import QualityContainer from "@/components/layouts/QualityContainer.vue";
 import BenefitsContainer from "@/components/layouts/BenefitsContainer.vue";
 import AttributeInfosContainer from "@/components/layouts/AttributeInfosContainer.vue";
 import InputSignup from "@/components/UI/InputSignup.vue";
-import ExploreContainer from "@/components/containers/ExploreContainer.vue"
+import ExploreContainer from "@/components/containers/ExploreContainer.vue";
+import RectangularButton from "../UI/RectangularButton.vue";
 
 export default {
   components: {
@@ -246,12 +271,8 @@ export default {
     BenefitsContainer,
     AttributeInfosContainer,
     InputSignup,
-    ExploreContainer
+    ExploreContainer,
+    RectangularButton,
   },
-  data () {
-    return {
-
-    }
-  }
 };
 </script>
