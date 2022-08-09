@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
-    <ul>
-      <li v-for="quality in qualities" :key="quality.id">
+    <ul class="md:flex md:flex-wrap">
+      <li class="md:w-6/12" v-for="quality in qualities" :key="quality.id">
         <quality-card :icon="quality.icon" :title="quality.title" :quality="quality.quality">
         </quality-card>
       </li>
