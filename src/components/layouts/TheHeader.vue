@@ -1,7 +1,7 @@
 <template>
   <header class="bg-slate-800 py-3">
     <div class="flex pt-2">
-      <img class="w-72" src="@/assets/home/logo_full.png" alt="Portal Logo" />
+      <img class="w-72 pl-4 md:pl-8" src="@/assets/home/logo_full.png" alt="Portal Logo" />
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
     <div class="relative mx-auto w-11/12">
@@ -41,6 +41,7 @@ export default {
 .navbar {
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
+  // @apply bg-slate-800;
 }
 
 .dropDown {

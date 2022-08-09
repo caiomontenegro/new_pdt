@@ -1,6 +1,6 @@
 <template>
   <button
-    class="burguer absolute top-5 right-3.5 h-9 w-11 cursor-pointer flex-col items-center justify-center rounded border border-solid"
+    class="burguer absolute top-5 md:right-8 right-4 h-9 w-11 cursor-pointer flex-col items-center justify-center rounded border border-solid"
     @click="activeBurguer"
   >
     <div class="lines relative mt-2">
