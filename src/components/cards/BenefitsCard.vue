@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex items-center rounded-lg bg-gray-100 p-4 font-lato">
+  <div class="md:py-12 md:text-2xl relative flex items-center rounded-lg bg-gray-100 p-4 font-lato">
     <div class="absolute w-24 h-28 bg-no-repeat bg-[length:75px] bg-center" :style="cssVar">
     </div>
     <div class="flex flex-col ml-28">
