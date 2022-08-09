@@ -1,7 +1,7 @@
 <template>
   <div class="mt-12">
-    <ul class="space-y-8">
-      <li v-for="attribute in attributes" :key="attribute.id">
+    <ul class="space-y-8 md:space-y-0 md:flex md:flex-wrap md:justify-center">
+      <li class="md:w-5/12" v-for="attribute in attributes" :key="attribute.id">
         <attribute-infos :icon="attribute.icon" :attribute="attribute.attribute" :description="attribute.description"></attribute-infos>
       </li>
     </ul>

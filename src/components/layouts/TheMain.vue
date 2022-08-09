@@ -158,14 +158,14 @@
   </section-container>
   <section-container class="bg-dark-background bg-fixed bg-no-repeat">
     <div
-      class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200"
+      class="flex flex-col md:flex-row items-center font-lato text-2xl font-thin uppercase text-gray-200 md:space-x-6 md:px-16"
     >
       <h2 class="text-center">
         <span class="font-normal text-emerald-500">6 anos</span>
         <div>no mercado</div>
       </h2>
-      <span class="mt-4 h-0.5 w-6/12 bg-emerald-500"></span>
-      <p class="text-center">
+      <span class="mt-4 h-0.5 w-6/12 md:w-1 md:h-24 bg-emerald-500"></span>
+      <p class="text-center md:text-left">
         Entenda por que acreditamos que
         <span class="font-normal text-emerald-500"
           >juntos somo mais fortes
