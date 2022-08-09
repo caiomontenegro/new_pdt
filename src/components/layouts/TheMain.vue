@@ -1,7 +1,7 @@
 <template>
   <section-container class="bg-slate-800">
-    <div class="md:flex md:w-11/12">
-      <div class="flex flex-col md:w-7/12 items-center md:items-start space-y-4 py-4">
+    <div class="md:flex md:w-11/12 md:space-x-4">
+      <div class="flex flex-col md:w-7/12 items-center md:items-start space-y-4 md:space-y-10 py-4">
         <h1
           class="w-96 text-center font-montserrat text-4xl text-gray-100 md:w-11/12 md:text-left md:text-5xl"
         >

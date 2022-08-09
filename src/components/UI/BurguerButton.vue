@@ -32,7 +32,7 @@ export default {
   @apply border-2 border-emerald-500;
 
   &__line {
-    @apply absolute -right-2.5 block h-0.5 w-5 rounded-3xl bg-gray-400 duration-200 ease-in-out;
+    @apply absolute -right-2.5 block h-0.5 w-5 rounded-3xl bg-gray-100 duration-200 ease-in-out;
   }
 
   // Animations
