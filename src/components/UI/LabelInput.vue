@@ -1,12 +1,12 @@
 <template>
-  <div class="flex w-full justify-center">
+  <div class="flex justify-center w-full">
     <label
-      class="rounded-md border-2 border-gray-400 bg-gray-200  text-slate-900 p-2"
+      class="w-3/12 text-center rounded-md border-2 border-gray-400 bg-gray-200 text-slate-900 p-2"
     >
       {{ label }}
     </label>
     <input
-      class="max-w-full rounded-r-md pl-4"
+      class="w-full rounded-r-md pl-4"
       type="text"
       :placeholder="placeHolder"
     />

@@ -54,7 +54,7 @@
       <a href="">Forex</a>
     </template>
   </explore-nav>
-    <explore-nav>
+  <explore-nav>
     <template v-slot:title>Blog</template>
     <template v-slot:link>
       <a class="font-bold" href="">Home do Blog</a>
