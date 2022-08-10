@@ -1,7 +1,9 @@
 <template>
   <section-container class="bg-slate-800">
     <div class="md:flex md:w-11/12 md:space-x-4 xl:justify-center">
-      <div class="flex flex-col md:w-7/12 items-center md:items-start space-y-4 md:space-y-10 py-4">
+      <div
+        class="flex flex-col items-center space-y-4 py-4 md:w-7/12 md:items-start md:space-y-10 2xl:w-[760px]"
+      >
         <h1
           class="w-96 text-center font-montserrat text-4xl text-gray-100 md:w-11/12 md:text-left md:text-5xl xl:text-7xl"
         >
@@ -10,7 +12,7 @@
           se encontram
         </h1>
         <p
-          class="px-8 md:p-0 md:w-full text-center font-lato text-2xl text-gray-100 md:text-left lg:w-10/12 xl:text-3xl"
+          class="px-8 text-center font-lato text-2xl text-gray-100 md:w-full md:p-0 md:text-left lg:w-10/12 xl:text-3xl"
         >
           Estudamos mais de 300 mil traders para criar um
           <strong>sistema educacional completo</strong>, que te ensina a
@@ -20,70 +22,101 @@
       <rounded-button class="md:hidden"
         >Começar meus Cursos Gratuitos</rounded-button
       >
-      <div class="hidden text-gray-100 md:block md:flex flex-col items-center space-y-4">
-        <h2 class="text-2xl text-center xl:text-3xl">Comece seus cursos gratuitos</h2>
-        <span class="border-t w-full"></span>
+      <div
+        class="hidden flex-col items-center space-y-4 text-gray-100 md:block md:flex"
+      >
+        <h2 class="text-center text-2xl xl:text-3xl">
+          Comece seus cursos gratuitos
+        </h2>
+        <span class="w-full border-t"></span>
         <p class="lg:text-lg">Entre com sua rede social favorita:</p>
         <div class="flex w-full space-x-2">
-          <rectangular-button class="uppercase">
-            Facebook
-          </rectangular-button>
-          <rectangular-button class="uppercase" color="bg-red-500" hoverColor="hover:bg-red-600"
+          <rectangular-button class="uppercase"> Facebook </rectangular-button>
+          <rectangular-button
+            class="uppercase"
+            color="bg-red-500"
+            hoverColor="hover:bg-red-600"
             >Google</rectangular-button
           >
         </div>
         <p class="xl:text-lg">... Ou com seu email:</p>
-        <div class="space-y-1 flex flex-col items-center w-full">
-          <label-input label="Nome:" placeHolder="Como você se chama?"></label-input>
-          <label-input label="Email:" placeHolder="Insira o seu melhor e-mail"></label-input>
-          <label-input label="Senha:" placeHolder="Escolha sua senha"></label-input>
-          <rectangular-button color="bg-red-500" hoverColor="bg-red-600" class="uppercase w-full"> Começar Cursos Grátis</rectangular-button>
+        <div class="flex w-full flex-col items-center space-y-1">
+          <label-input
+            label="Nome:"
+            placeHolder="Como você se chama?"
+          ></label-input>
+          <label-input
+            label="Email:"
+            placeHolder="Insira o seu melhor e-mail"
+          ></label-input>
+          <label-input
+            label="Senha:"
+            placeHolder="Escolha sua senha"
+          ></label-input>
+          <rectangular-button
+            color="bg-red-500"
+            hoverColor="bg-red-600"
+            class="w-full uppercase"
+          >
+            Começar Cursos Grátis</rectangular-button
+          >
         </div>
-        <p class="xl:text-lg">Já é cadastrado? <a href="">Faça login</a> </p>
+        <p class="xl:text-lg">Já é cadastrado? <a href="">Faça login</a></p>
       </div>
     </div>
   </section-container>
-  <section-container class="lg:space-y-12 xl:flex">
-    <div>
-      <img
-        src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/sala-ao-vivo-sasaki"
-        alt="Sasaki"
-      />
-    </div>
-    <div class="flex flex-col items-center space-y-8 lg:w-10/12 lg:text-center lg:space-y-12">
-      <h2 class="font-montserrat text-2xl lg:text-4xl uppercase">
-        Aprenda as <ins>melhores</ins> técnicas
-      </h2>
-      <div class="space-y-4 lg:space-y-12 flex flex-col items-center">
-        <p class="font-lato text-lg lg:text-2xl">
-          Seja para operar Day Trade, Swing Trade ou investir a longo prazo,
-          nosso time de traders ensina as principais técnicas utilizadas no
-          mercado como Price Action, Análise Técnica e Tape Reading em cursos
-          gratuitos completos.
-        </p>
-        <p class="font-lato text-lg font-bold lg:text-2xl">
-          Se você está começando agora, ou já é um trader experiente, será mais
-          que bem-vindo para aprender o que quiser sobre trading e Bolsa de
-          Valores.
-        </p>
-        <testimony-card>
-          <template v-slot:testimony>
-            "Os cursos do Portal e a sala Ao Vivo mudaram minha vida operacional. A
-            calma e paciência da equipe foram fundamentais para eu atingir minha
-            consistência. Já conhecia o mercado e tinha perdido muito! Com vocês
-            isso mudou! Não os conheço pessoalmente mas sinto como se fossem grandes
-            amigos... Obrigado por tudo!"
-          </template>
-          <template v-slot:studantImage
-            ><img
-              src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02"
-              alt="Foto do Aluno"
-          /></template>
-          <template v-slot:studantName>Lucas A.</template>
-        </testimony-card>
-        <rounded-button color="bg-red-500" hoverColor="hover:bg-red-700"
-          >aprenda as melhores técnicas</rounded-button
+  <section-container>
+    <div
+      class="flex flex-col items-center lg:space-y-12 xl:w-11/12 xl:flex-row xl:items-center xl:justify-center 2xl:w-[1500px]"
+    >
+      <div class="xl:order-1 xl:w-full">
+        <img
+          class="w-full 2xl:w-[650px]"
+          src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/sala-ao-vivo-sasaki"
+          alt="Sasaki"
+        />
+      </div>
+      <div
+        class="flex flex-col items-center space-y-8 lg:w-10/12 lg:space-y-12 lg:text-center xl:w-full"
+      >
+        <div
+          class="flex flex-col items-center space-y-4 lg:space-y-12 xl:w-full 2xl:w-[700px]"
         >
+          <h2 class="font-montserrat text-2xl uppercase lg:text-4xl">
+            Aprenda as <ins>melhores</ins> técnicas
+          </h2>
+          <p class="font-lato text-lg lg:text-2xl xl:text-end xl:text-xl">
+            Seja para operar Day Trade, Swing Trade ou investir a longo prazo,
+            nosso time de traders ensina as principais técnicas utilizadas no
+            mercado como Price Action, Análise Técnica e Tape Reading em cursos
+            gratuitos completos.
+          </p>
+          <p
+            class="font-lato text-lg font-bold lg:text-2xl xl:text-end xl:text-xl"
+          >
+            Se você está começando agora, ou já é um trader experiente, será
+            mais que bem-vindo para aprender o que quiser sobre trading e Bolsa
+            de Valores.
+          </p>
+          <testimony-card class="xl:text-end">
+            <template v-slot:testimony>
+              "Os cursos do Portal e a sala Ao Vivo mudaram minha vida
+              operacional. A calma e paciência da equipe foram fundamentais para
+              eu atingir minha consistência. Já conhecia o mercado e tinha
+              perdido muito! Com vocês isso mudou! Não os conheço pessoalmente
+              mas sinto como se fossem grandes amigos... Obrigado por tudo!"
+            </template>
+            <template v-slot:studantImage
+              ><img
+                src="https://res.cloudinary.com/portal-do-trader/image/upload/f_auto/pdt-home/testimonial-pic-02"
+                alt="Foto do Aluno"
+            /></template>
+            <template v-slot:studantName>Lucas A.</template>
+          </testimony-card>
+          <rounded-button color="bg-red-500" hoverColor="hover:bg-red-700"
+            >aprenda as melhores técnicas</rounded-button
+          >
+        </div>
       </div>
     </div>
   </section-container>
@@ -92,7 +125,9 @@
       src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/aprenda-screens"
       alt="Acessibilidade Portal do Trader"
     />
-    <div class="flex flex-col items-center space-y-8 lg:w-10/12 lg:text-center lg:space-y-12">
+    <div
+      class="flex flex-col items-center space-y-8 lg:w-10/12 lg:space-y-12 lg:text-center"
+    >
       <h2 class="font-montserrat text-2xl uppercase lg:text-4xl">
         Sem plano, <ins>sem chance.</ins>
       </h2>
@@ -156,13 +191,13 @@
   </section-container>
   <section-container class="bg-dark-background bg-fixed bg-no-repeat">
     <div
-      class="flex flex-col md:flex-row items-center font-lato text-2xl font-thin uppercase text-gray-200 md:space-x-6 md:px-16"
+      class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200 md:flex-row md:space-x-6 md:px-16"
     >
       <h2 class="text-center">
         <span class="font-normal text-emerald-500">6 anos</span>
         <div>no mercado</div>
       </h2>
-      <span class="mt-4 h-0.5 w-6/12 md:w-1 md:h-24 bg-emerald-500"></span>
+      <span class="mt-4 h-0.5 w-6/12 bg-emerald-500 md:h-24 md:w-1"></span>
       <p class="text-center md:text-left">
         Entenda por que acreditamos que
         <span class="font-normal text-emerald-500"
@@ -195,7 +230,7 @@
         *Fique tranquilo, não publicaremos nada em sua conta.
       </p>
     </div>
-    <div class="w-full space-y-2 flex flex-col items-center">
+    <div class="flex w-full flex-col items-center space-y-2">
       <rectangular-button>Entrar com Facebook</rectangular-button>
       <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
         >Entrar com Google</rectangular-button
@@ -242,7 +277,9 @@
       <h2 class="w-8/12 text-center font-lato text-2xl uppercase text-gray-100">
         Explore o portal do trader
       </h2>
-      <div class="space-y-8 lg:flex lg:space-y-0 lg:flex-wrap lg:justify-center lg:space-x-4 lg:pt-8">
+      <div
+        class="space-y-8 lg:flex lg:flex-wrap lg:justify-center lg:space-y-0 lg:space-x-4 lg:pt-8"
+      >
         <explore-container></explore-container>
       </div>
     </div>

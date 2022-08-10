@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-4 border-emerald-500 bg-slate-700 p-4 text-gray-100 md:flex-row md:px-6 lg:w-6/12 shadow-xl"
+    class="flex w-11/12 flex-col items-center space-y-4 rounded-xl border-4 border-emerald-500 bg-slate-700 p-4 text-gray-100 md:flex-row md:px-6 lg:w-full shadow-xl"
   >
     <p class="font-lato italic md:order-1 lg:text-xl">
       <slot name="testimony">Testimony</slot>
