@@ -1,13 +1,13 @@
 <template>
   <header class="bg-slate-800 py-3 xl:pl-56">
-    <div class="flex pt-2">
-      <img class="w-72 xl:w-96 pl-4 md:pl-8 xl:pl-10" src="@/assets/home/logo_full.png" alt="Portal Logo" />
+    <div class="xl:relative xl:right- flex pt-2">
+      <img class="xl:absolute xl:right-3/4 w-72 pl-4 md:pl-8 xl:pl-10 xl:w-auto" src="@/assets/home/logo_full.png" alt="Portal Logo" />
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
     <div class="relative mx-auto w-11/12">
-      <div class="absolute w-full xl:-right-96 xl:-top-[78px]">
+      <div class="absolute w-full xl:w-6/12 xl:right-64 xl:-top-5">
         <nav-bar
-          class="navbar h-0 xl:h-auto overflow-hidden mt-2 rounded-md border-t-2 border-emerald-500 duration-200 ease-in-out"
+          class="navbar h-0 xl:h-auto overflow-hidden xl:overflow-auto mt-2 rounded-md border-t-2 border-emerald-500 duration-200 ease-in-out"
           :class="{ dropDown: !showContent }"
         ></nav-bar>
       </div>

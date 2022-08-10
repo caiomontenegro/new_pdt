@@ -1,8 +1,8 @@
 <template>
   <nav class="nav">
-    <div class="nav-links space-y-4 xl:space-y-0 py-6 xl:flex xl:space-x-80">
+    <div class="nav-links space-y-4 py-6 w-full xl:flex xl:space-y-0  xl:justify-between">
       <div class="nav-links__main">
-        <ul class="flex flex-col items-center space-y-4 xl:flex-row xl:space-y-0 xl:space-x-4">
+        <ul class="flex flex-col xl:flex-row items-center space-y-4 xl:space-y-0 xl:space-x-4">
           <li class="link">
             <a href="https://portaldotrader.com.br/aprenda" target="_self"
               >Aprenda</a
