@@ -121,60 +121,66 @@
     </div>
   </section-container>
   <section-container class="bg-gray-200">
-    <img
-      src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/aprenda-screens"
-      alt="Acessibilidade Portal do Trader"
-    />
     <div
-      class="flex flex-col items-center space-y-8 lg:w-10/12 lg:space-y-12 lg:text-center"
+      class="flex flex-col items-center lg:space-y-12 xl:w-11/12 xl:flex-row xl:items-center xl:justify-center 2xl:w-[1500px]"
     >
-      <h2 class="font-montserrat text-2xl uppercase lg:text-4xl">
-        Sem plano, <ins>sem chance.</ins>
-      </h2>
-      <div class="space-y-4 lg:space-y-12">
-        <p class="font-lato text-lg lg:text-2xl">
-          Não existe uma fórmula mágica para começar a operar com segurança nem
-          para conseguir resultados positivos consistentes, o único caminho é
-          através do conhecimento.
-        </p>
-        <p class="font-lato text-lg font-bold lg:text-2xl">
-          Nossos traders profissionais estruturaram toda a jornada de
-          aprendizado em um plano, com todas as etapas que você precisa passar
-          para conquistar seus objetivos no mercado.
-        </p>
+      <div class="xl:w-full">
+        <img
+          class="w-full 2xl:w-[650px]"
+          src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto/f_auto/pdt-home/aprenda-screens"
+          alt="Sasaki"
+        />
+      </div>
+      <div
+        class="flex flex-col items-center space-y-8 lg:w-10/12 lg:space-y-12 lg:text-center xl:w-full"
+      >
+        <div
+          class="flex flex-col items-center space-y-4 lg:space-y-12 xl:w-full 2xl:w-[700px]"
+        >
+          <h2 class="font-montserrat text-2xl uppercase lg:text-4xl">
+            Sem plano <ins>sem chance.</ins>
+          </h2>
+          <p class="font-lato text-lg lg:text-2xl xl:text-start xl:text-xl">
+            Não existe uma fórmula mágica para começar a operar com segurança nem para conseguir resultados positivos consistentes, o único caminho é através do conhecimento.
+          </p>
+          <p
+            class="font-lato text-lg font-bold lg:text-2xl xl:text-start xl:text-xl"
+          >
+            Nossos traders profissionais estruturaram toda a jornada de aprendizado em um plano, com todas as etapas que você precisa passar para conquistar seus objetivos no mercado.
+          </p>
+          <testimony-card class="xl:text-start">
+            <template v-slot:testimony>
+              "Muito obrigado por ceder estes materiais tão valiosos de forma gratuita. Sempre que preciso renovar as energias e/ou tirar dúvidas recorro ao CHAT PORTAL DO TRADER e SEMPRE, SEM EXCEÇÃO sou muito bem tratado, minhas dúvidas são esclarecidas e tudo corre muito bem. Muito obrigado mesmo PORTAL!"
+            </template>
+            <template v-slot:studantImage
+              ><img
+                src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto,f_auto/pdt-home/testimonial-pic-01"
+                alt="Foto do Aluno"
+            /></template>
+            <template v-slot:studantName>Eduardo G.</template>
+          </testimony-card>
+          <rounded-button color="bg-red-500" hoverColor="hover:bg-red-700"
+            >aprenda as melhores técnicas</rounded-button
+          >
+        </div>
       </div>
     </div>
-    <testimony-card>
-      <template v-slot:testimony>
-        "Muito obrigado por ceder estes materiais tão valiosos de forma
-        gratuita. Sempre que preciso renovar as energias e/ou tirar dúvidas
-        recorro ao CHAT PORTAL DO TRADER e SEMPRE, SEM EXCEÇÃO sou muito bem
-        tratado, minhas dúvidas são esclarecidas e tudo corre muito bem. Muito
-        obrigado mesmo PORTAL!"
-      </template>
-      <template v-slot:studantImage>
-        <img
-          src="https://res.cloudinary.com/portal-do-trader/image/upload/q_auto,f_auto/pdt-home/testimonial-pic-01"
-          alt="Foto do Aluno."
-        />
-      </template>
-      <template v-slot:studantName>Eduardo G.</template>
-    </testimony-card>
-    <rounded-button color="bg-red-500" hoverColor="hover:bg-red-600">
-      Começar Plano Educacional
-    </rounded-button>
   </section-container>
   <section-container class="bg-slate-800">
-    <h2
-      class="text-center font-lato text-3xl font-thin uppercase text-gray-100"
-    >
-      Por que
-      <span class="font-bold text-emerald-500">milhares de traders</span>
-      frequentam o Portal diariamente?
-    </h2>
-    <quality-container class="11/12"></quality-container>
+    <div class="xl:flex xl:flex-col items-center xl:space-y-16">
+      <h2
+        class="text-center font-lato text-3xl font-thin uppercase text-gray-100"
+      >
+        Por que
+        <span class="font-bold text-emerald-500">milhares de traders</span>
+        frequentam o Portal diariamente?
+      </h2>
+      <div class="xl:w-10/12">
+        <quality-container></quality-container>
+      </div>
+    </div>
   </section-container>
-  <section-container class="bg-gray-200 lg:space-y-12">
+  <section-container class="bg-gray-200 lg:space-y-12 xl:space-y-24">
     <div class="flex flex-col space-y-4">
       <h2 class="text-center font-lato text-3xl font-bold uppercase">
         Acesse agora o
@@ -187,26 +193,30 @@
         para <span class="text-emerald-500">aprender a operar</span>.
       </p>
     </div>
-    <benefits-container></benefits-container>
+    <div class="xl:w-10/12">
+      <benefits-container></benefits-container>
+    </div>
   </section-container>
   <section-container class="bg-dark-background bg-fixed bg-no-repeat">
-    <div
-      class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200 md:flex-row md:space-x-6 md:px-16"
-    >
-      <h2 class="text-center">
-        <span class="font-normal text-emerald-500">6 anos</span>
-        <div>no mercado</div>
-      </h2>
-      <span class="mt-4 h-0.5 w-6/12 bg-emerald-500 md:h-24 md:w-1"></span>
-      <p class="text-center md:text-left">
-        Entenda por que acreditamos que
-        <span class="font-normal text-emerald-500"
-          >juntos somo mais fortes
-        </span>
-      </p>
-    </div>
-    <div class="flex flex-col space-y-16">
-      <attribute-infos-container></attribute-infos-container>
+    <div class="xl:w-10/12">
+      <div
+        class="flex flex-col items-center font-lato text-2xl font-thin uppercase text-gray-200 md:flex-row md:space-x-6 md:px-16"
+      >
+        <h2 class="text-center">
+          <span class="font-normal text-emerald-500">6 anos</span>
+          <div>no mercado</div>
+        </h2>
+        <span class="mt-4 h-0.5 w-6/12 bg-emerald-500 md:h-24 md:w-1"></span>
+        <p class="text-center md:text-left">
+          Entenda por que acreditamos que
+          <span class="font-normal text-emerald-500"
+            >juntos somo mais fortes
+          </span>
+        </p>
+      </div>
+      <div class="flex flex-col space-y-16">
+        <attribute-infos-container></attribute-infos-container>
+      </div>
     </div>
   </section-container>
   <section-container class="bg-gray-200">
@@ -230,35 +240,37 @@
         *Fique tranquilo, não publicaremos nada em sua conta.
       </p>
     </div>
-    <div class="flex w-full flex-col items-center space-y-2">
-      <rectangular-button>Entrar com Facebook</rectangular-button>
-      <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
-        >Entrar com Google</rectangular-button
-      >
-    </div>
-    <div class="w-full">
-      <p class="text-center font-lato text-2xl">
-        ...Ou cadastre-se gratuitamente com seu email:
-      </p>
-    </div>
-    <div class="w-full">
-      <form class="flex w-full flex-col items-center space-y-2" action="#">
-        <input-signup
-          label="Nome:"
-          placeHolder="Como você se chama?"
-        ></input-signup>
-        <input-signup
-          label="Email:"
-          placeHolder="Coloque aqui o seu melhor email..."
-        ></input-signup>
-        <input-signup
-          label="Senha:"
-          placeHolder="Escolha sua senha..."
-        ></input-signup>
+    <div class="w-full xl:w-6/12">
+      <div class="flex w-full flex-col items-center space-y-2">
+        <rectangular-button>Entrar com Facebook</rectangular-button>
         <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
-          >COMEÇAR CURSOS GRÁTIS</rectangular-button
+          >Entrar com Google</rectangular-button
         >
-      </form>
+      </div>
+      <div class="w-full">
+        <p class="text-center font-lato text-2xl">
+          ...Ou cadastre-se gratuitamente com seu email:
+        </p>
+      </div>
+      <div class="w-full">
+        <form class="flex w-full flex-col items-center space-y-2" action="#">
+          <input-signup
+            label="Nome:"
+            placeHolder="Como você se chama?"
+          ></input-signup>
+          <input-signup
+            label="Email:"
+            placeHolder="Coloque aqui o seu melhor email..."
+          ></input-signup>
+          <input-signup
+            label="Senha:"
+            placeHolder="Escolha sua senha..."
+          ></input-signup>
+          <rectangular-button color="bg-red-500" hoverColor="hover:bg-red-600"
+            >COMEÇAR CURSOS GRÁTIS</rectangular-button
+          >
+        </form>
+      </div>
       <p class="mt-6 text-center font-lato text-sm">
         Já é cadastrado? Faça <span class="text-blue-500">login</span>
       </p>

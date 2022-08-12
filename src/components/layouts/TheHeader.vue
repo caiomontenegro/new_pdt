@@ -41,7 +41,7 @@ export default {
 .navbar {
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
-  // @apply bg-slate-800;
+  // @apply bg-gray-200;
 }
 
 .dropDown {

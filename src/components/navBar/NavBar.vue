@@ -37,7 +37,7 @@ export default {};
 
 <style lang="scss">
 .nav-links {
-  @apply font-montserrat text-lg uppercase text-white;
+  @apply font-montserrat text-lg uppercase text-gray-200;
 
   &__special {
     @apply font-semibold;
