@@ -2,13 +2,13 @@
   <section-container class="bg-slate-800">
     <div class="md:flex md:w-11/12 md:space-x-4 xl:justify-center">
       <div
-        class="flex flex-col items-center space-y-4 py-4 md:w-7/12 md:items-start md:space-y-10 2xl:w-[760px]"
+        class="mb-6 flex flex-col items-center space-y-4 py-4 md:w-7/12 md:items-start md:space-y-10 2xl:w-[760px]"
       >
         <h1
-          class="w-96 text-center font-montserrat text-4xl text-gray-100 md:w-11/12 md:text-left md:text-5xl xl:text-7xl"
+          class="mb-4 w-96 text-center font-montserrat text-4xl text-gray-100 md:w-11/12 md:text-left md:text-5xl xl:text-7xl"
         >
           Onde
-          <span class="font-bold text-emerald-500">traders consistentes</span>
+          <span class="font-bold text-emerald-400">traders consistentes</span>
           se encontram
         </h1>
         <p
@@ -141,16 +141,24 @@
             Sem plano <ins>sem chance.</ins>
           </h2>
           <p class="font-lato text-lg lg:text-2xl xl:text-start xl:text-xl">
-            Não existe uma fórmula mágica para começar a operar com segurança nem para conseguir resultados positivos consistentes, o único caminho é através do conhecimento.
+            Não existe uma fórmula mágica para começar a operar com segurança
+            nem para conseguir resultados positivos consistentes, o único
+            caminho é através do conhecimento.
           </p>
           <p
             class="font-lato text-lg font-bold lg:text-2xl xl:text-start xl:text-xl"
           >
-            Nossos traders profissionais estruturaram toda a jornada de aprendizado em um plano, com todas as etapas que você precisa passar para conquistar seus objetivos no mercado.
+            Nossos traders profissionais estruturaram toda a jornada de
+            aprendizado em um plano, com todas as etapas que você precisa passar
+            para conquistar seus objetivos no mercado.
           </p>
           <testimony-card class="xl:text-start">
             <template v-slot:testimony>
-              "Muito obrigado por ceder estes materiais tão valiosos de forma gratuita. Sempre que preciso renovar as energias e/ou tirar dúvidas recorro ao CHAT PORTAL DO TRADER e SEMPRE, SEM EXCEÇÃO sou muito bem tratado, minhas dúvidas são esclarecidas e tudo corre muito bem. Muito obrigado mesmo PORTAL!"
+              "Muito obrigado por ceder estes materiais tão valiosos de forma
+              gratuita. Sempre que preciso renovar as energias e/ou tirar
+              dúvidas recorro ao CHAT PORTAL DO TRADER e SEMPRE, SEM EXCEÇÃO sou
+              muito bem tratado, minhas dúvidas são esclarecidas e tudo corre
+              muito bem. Muito obrigado mesmo PORTAL!"
             </template>
             <template v-slot:studantImage
               ><img
@@ -167,7 +175,7 @@
     </div>
   </section-container>
   <section-container class="bg-slate-800">
-    <div class="xl:flex xl:flex-col items-center xl:space-y-16">
+    <div class="items-center xl:flex xl:flex-col xl:space-y-16">
       <h2
         class="text-center font-lato text-3xl font-thin uppercase text-gray-100"
       >
