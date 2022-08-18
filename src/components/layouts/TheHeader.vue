@@ -5,6 +5,7 @@
       <burguer-button @show-nav="showLinks()"></burguer-button>
     </div>
     <div class="relative mx-auto w-11/12">
+      <search-input></search-input>
       <div class="absolute w-full xl:w-6/12 xl:right-64 xl:-top-5">
         <nav-bar
           class="navbar h-0 xl:h-auto overflow-hidden xl:overflow-auto mt-2 rounded-md border-t-2 border-emerald-500 duration-200 ease-in-out"
@@ -17,6 +18,7 @@
 
 <script>
 import BurguerButton from "@/components/UI/BurguerButton.vue";
+import SearchInput from "@/components/UI/SearchInput.vue"
 import NavBar from "@/components/navBar/NavBar.vue";
 
 export default {
@@ -28,6 +30,7 @@ export default {
   components: {
     NavBar,
     BurguerButton,
+    SearchInput
   },
   methods: {
     showLinks() {

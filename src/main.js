@@ -7,9 +7,9 @@ import './style/compiled.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons'
+import { faCaretDown, faCaretUp, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCaretDown, faCaretUp)
+library.add(faCaretDown, faCaretUp, faMagnifyingGlass)
 
 //components
 import RoundedButton from './components/UI/RoundedButton.vue'
